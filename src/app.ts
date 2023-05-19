@@ -10,6 +10,7 @@ import dotenv from 'dotenv';
 import http from 'http';
 import userRouter from './routes/userRoute'
 import citizenRouter from './routes/citizenRoute'
+import migrateRouter from './routes/migrationRoute'
 
 dotenv.config()
 dbConnect()
